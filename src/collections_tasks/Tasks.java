@@ -1,5 +1,6 @@
 package collections_tasks;
 import java.util.HashMap;
+import java.util.List;
 
 public class Tasks {
 
@@ -38,5 +39,25 @@ public class Tasks {
         throw new UnsupportedOperationException("Not implemented yet");
     }
 
+    /**
+     * This method should accept a student list as an argument, sort all students by name using a
+     * Comparator and should return a sorted list of students
+     * @param list
+     * @return
+     */
+    public static List<Student> sortByName(List<Student> list){
+        throw new UnsupportedOperationException("Not implemented yet");
+    }
+
+
+    /**
+     * This method should accept a student list as an argument, sort all students by GPA using a
+     * Comparator and should return a sorted list of students
+     * @param list
+     * @return
+     */
+    public static List<Student> sortByGPA(List<Student> list){
+        throw new UnsupportedOperationException("Not implemented yet");
+    }
 
 }
